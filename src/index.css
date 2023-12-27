@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark-mode-elements {
+    color: hsl(209, 23%, 22%);
+}
+
+.dark-mode-background {
+    background-color: hsl(207, 26%, 17%);
+}
+
+.light-mode-text {
+    color: hsl(200, 15%, 8%);
+}
+
+.light-mode-input {
+    background-color: hsl(0, 0%, 52%);
+}
+
+.light-mode-background {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.dark-mode-text,
+.light-mode-elements {
+    color: hsl(0, 0%, 100%);
+}
+
+/* Typography */
+.homepage-items {
+    font-size: 14px;
+}
+
+.detail-page {
+    font-size: 16px;
+}
+
+.nunito-sans {
+    font-family: 'Nunito Sans', sans-serif;
+}
